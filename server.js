@@ -1,3 +1,5 @@
-/**
- * Created by lawrence on 3/31/2015.
- */
+var env     = require('./app/env/env'),
+    routes  = require('./app/controller/routes');
+
+env.init();
+routes.init();
